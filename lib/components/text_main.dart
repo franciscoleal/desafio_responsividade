@@ -19,9 +19,7 @@ class TextMain extends StatelessWidget {
       '$primeiroTexto\n'
       '$segundoTexto',
       style: TextStyle(
-        color: cor,
-        fontSize: tamanhoFonte,
-      ),
+          color: cor, fontSize: tamanhoFonte, fontWeight: FontWeight.bold),
       textAlign: TextAlign.center,
     );
   }
